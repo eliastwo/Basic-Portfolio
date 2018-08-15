@@ -1,11 +1,45 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="reset.css">
+    <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
-    <header>
-        <h1>This is the Contact Page.</h1>
-    </header>
 <body>
-    
+    <header>
+        <div class="headerContainer">
+            <div class="nameContainer">
+                    <h1>Jeffrey Neal Crump</h1>
+            </div>
+
+            <div class="navContainer">
+                <ul>
+                  <li><a href="index.html">About</a></li>
+                  <li><a href="portfolio.html">Portfolio</a></li>
+                  <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <div class="mainContainer">
+        <div class="aboutMeContainer">
+            <h2>Contact</h2>
+        </div>
+
+        <div class="formStyle">
+          <form>
+            <label for="fullname">Full Name</label><br>
+            <input type="text" id="fullname" name="fullname" placeholder="Your name.."><br>
+            <label for="email">Email Address</label><br>
+            <input type="text" id="email" name="email" placeholder="Email Address.."><br>
+            <label for="message">Message</label><br>
+            <input type="text" id="message" name="message" placeholder="Message.."><br>
+
+            <button type="button">Submit</button>
+          </form>
+        </div>
+    </div>
+
 </body>
 </html>
+
