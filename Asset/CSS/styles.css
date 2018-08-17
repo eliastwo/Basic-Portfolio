@@ -14,17 +14,31 @@
     border: solid;
     width: 150px;
     height: 50px;
-    text-align: center;
+    background: #4aaaa5
 }
 
-.navContainer {
+h1 {
+    color: #ffffff;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+.verticalMenu {
+    width: 150px;
     margin-top: -50px;
     margin-left: 600px;
     height: 50px;
+    width: 250;
 }
 
-.navContainer li {
+.verticalMenu a {
+    color: #777777;
     display: inline;
+    text-decoration: none;
+}
+
+.verticalMenu a:hover {
+    background-color: #ccc; /* Dark grey background on mouse-over */
 }
 
 .mainContainer {
@@ -40,7 +54,8 @@
     margin-left: 0px;
     border:solid;
     margin-top: 20px;
-    border-bottom-color: aqua;
+    border-bottom-color: #777777;
+    color: #4aaaa5;
 }
 }
 
@@ -59,6 +74,7 @@ img {
 
 .wrapsPic {
     margin: 0px 0px 0px 5px;
+    color: #777777
 
 }
 
