@@ -1,0 +1,107 @@
+
+body {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	background: #eeeeee;
+}
+
+h1 {
+    color: #481FEF;
+    font-weight: bold;
+    margin-top: 15px;
+    font-family: font-family: 'Georgia', Times, Times New Roman, serif;
+	padding-left: 85px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+h6 {
+	border: solid 10px;
+	color: #481FEF;
+	margin-left: 85px;
+	width: 1125px;
+}
+
+.column {
+    float: right;
+    width: 40%;
+    padding: 25px;
+	padding-left: 100px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: #eeeeee;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #481FEF;
+    display: block;
+    transition: 0.3s;
+}
+
+.col-lg-12 {
+	height: 225px;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.col-lg-2 {
+	margin: 0 0;
+	padding: 0;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+span {
+	float: right;
+	padding-right: 10px;
+	margin-top: 0px;
+	font-weight: bold;
+	font-size: 24px;
+}
+
+#main {
+	float: right;
+}
+
+.bottomContainer {
+    position: absolute;
+    height: 30px;
+    bottom: 0px;
+    width: 100%;
+    background: #666666;
+}
+

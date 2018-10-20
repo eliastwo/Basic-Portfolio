@@ -1,0 +1,125 @@
+
+body {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	background: #eeeeee;
+}
+
+.container-fluid {
+	height: 100px;
+	width: 100%;
+	background: #481FEF;
+	padding: 0;
+}
+
+.col-lg-12 {
+	height: 275px;
+}
+
+h1 {
+    color: white;
+    font-weight: bold;
+    margin-top: 15px;
+	margin-left: 0px;
+    font-family: font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+h2 {
+    font-weight: bold;
+    font-size:  28px;
+    margin-bottom: 20px;
+    font-family: font-family: 'Georgia', Times, Times New Roman, serif;
+	margin-left: 0px;
+}
+
+#aboutMeContainer {
+    margin-left: 0px;
+    border-bottom-color: #777777;
+    color: #481FEF;
+    border: 1px thin;
+}
+
+.aboutMeContainer {
+    margin-left: 0px;
+    border-bottom-color: #777777;
+    color: #481FEF;
+    border: 1px thin;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+    float: left;
+    margin: 0px 10px 0px 0px;
+}
+
+.wrapsPic {
+    margin: 0px 0px 0px 5px;
+    color: #481FEF;
+}
+
+.mainContainer {
+    position: absolute;
+    margin-top: 150px;
+    width: 810px;
+    height: 350px;
+    border-bottom: 0.5;
+    border-bottom-color: #777777;
+	border: solid 5px;
+}
+
+.bottomContainer {
+    position: absolute;
+    height: 30px;
+    bottom: 0px;
+    width: 100%;
+    background: #666666;
+}
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: #eeeeee;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #481FEF;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+span {
+	float: right;
+	padding-right: 10px;
+	margin-top: 0px;
+}
+
+#main {
+	float: right;
+}
